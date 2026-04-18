@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Test fixtures
+tests/fixtures/
+examples/fixtures/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Memory data (sensitive)
+memory/wal/*.log
+memory/buffer/*.json
