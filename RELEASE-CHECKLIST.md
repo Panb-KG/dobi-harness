@@ -1,4 +1,4 @@
-# 🚀 Dobby-harness 发布清单
+# 🚀 Dobi-harness 发布清单
 
 > GitHub + ClawHub 发布完整检查列表
 
@@ -12,7 +12,7 @@
 - [x] .gitignore 已创建
 - [x] clawhub.json 已创建
 - [x] PUBLISH-GUIDE.md 已创建
-- [x] 技能名称：dobby-harness ✅
+- [x] 技能名称：dobi-harness ✅
 
 ---
 
@@ -22,17 +22,17 @@
 
 ✅ GitHub 用户名已确认：**Panb-KG**
 
-仓库 URL: https://github.com/Panb-KG/dobby-harness
+仓库 URL: https://github.com/Panb-KG/dobi-harness
 
 ### 步骤 2: 创建 GitHub 仓库
 
-- [ ] 访问 https://github.com/Panb-KG/dobby-harness
+- [ ] 访问 https://github.com/Panb-KG/dobi-harness
 - [ ] 确认仓库已创建
 
 ### 步骤 3: 推送代码
 
 ```bash
-cd /home/admin/.openclaw/workspace/skills/dobby-harness
+cd /home/admin/.openclaw/workspace/skills/dobi-harness
 
 # 初始化 Git
 git init
@@ -41,7 +41,7 @@ git init
 git add .
 
 # 提交
-git commit -m "Initial commit: Dobby-harness v1.0.0
+git commit -m "Initial commit: Dobi-harness v1.0.0
 
 Features:
 - Multi-Agent Orchestration (5 patterns)
@@ -50,11 +50,11 @@ Features:
 - Complete Test Suite (23+ tests)
 - Full Documentation (50KB+)
 
-Author: Dobby 🧦
+Author: Dobi 🧦
 License: MIT"
 
 # 添加远程仓库
-git remote add origin https://github.com/Panb-KG/dobby-harness.git
+git remote add origin https://github.com/Panb-KG/dobi-harness.git
 
 # 推送
 git branch -M main
@@ -71,7 +71,7 @@ npm install -g clawhub
 clawhub login
 
 # 发布
-cd /home/admin/.openclaw/workspace/skills/dobby-harness
+cd /home/admin/.openclaw/workspace/skills/dobi-harness
 clawhub publish
 ```
 
@@ -88,7 +88,7 @@ clawhub publish
 
 ### ClawHub 验证
 
-- [ ] 技能搜索：`dobby-harness`
+- [ ] 技能搜索：`dobi-harness`
 - [ ] 安装成功
 - [ ] 功能正常
 
@@ -141,10 +141,10 @@ node examples/harness-demo.js
 ## 🆘 需要皮爷确认
 
 1. **GitHub 用户名**: Panb-KG ✅
-2. **仓库名称**: `dobby-harness` ✅
+2. **仓库名称**: `dobi-harness` ✅
 3. **许可证**: MIT ✅
-4. **技能名称**: `dobby-harness` ✅
-5. **作者名**: Dobby ✅
+4. **技能名称**: `dobi-harness` ✅
+5. **作者名**: Dobi ✅
 
 ---
 

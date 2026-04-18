@@ -74,7 +74,7 @@ cp SECURITY-AUDIT.md skills/harness-engineering/
 
 ### 步骤 2: 创建 GitHub 仓库
 
-1. 访问 https://github.com/Panb-KG/dobby-harness
+1. 访问 https://github.com/Panb-KG/dobi-harness
 2. 点击 "Create repository"
 
 ### 步骤 3: 推送代码到 GitHub
@@ -132,7 +132,7 @@ clawhub publish --repo https://github.com/YOUR_USERNAME/harness-engineering.git
 4. 填写信息：
    - **Name**: `harness-engineering`
    - **Description**: "Multi-Agent Orchestration System"
-   - **Repository URL**: https://github.com/Panb-KG/dobby-harness
+   - **Repository URL**: https://github.com/Panb-KG/dobi-harness
    - **Version**: `1.0.0`
    - **Tags**: `orchestration`, `multi-agent`, `workflow`, `harness`
 
@@ -149,7 +149,7 @@ clawhub publish --repo https://github.com/YOUR_USERNAME/harness-engineering.git
   "name": "harness-engineering",
   "version": "1.0.0",
   "description": "多 Agent 编排系统，提供任务分解、并行执行、生产工作流和自进化能力",
-  "author": "Dobby",
+  "author": "Dobi",
   "license": "MIT",
   "repository": "https://github.com/YOUR_USERNAME/harness-engineering.git",
   "tags": [

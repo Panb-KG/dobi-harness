@@ -1,16 +1,16 @@
 {
-  "name": "dobby-harness",
+  "name": "dobi-harness",
   "version": "1.0.0",
   "description": "多 Agent 编排系统，提供任务分解、并行执行、生产工作流和自进化能力",
-  "author": "Dobby",
-  "license": "MIT",
+  "author": "Dobi",
+  "license": "MIT-0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Panb-KG/dobby-harness.git"
+    "url": "https://github.com/Panb-KG/dobi-harness.git"
   },
-  "homepage": "https://github.com/Panb-KG/dobby-harness#readme",
+  "homepage": "https://github.com/Panb-KG/dobi-harness#readme",
   "bugs": {
-    "url": "https://github.com/Panb-KG/dobby-harness/issues"
+    "url": "https://github.com/Panb-KG/dobi-harness/issues"
   },
   "tags": [
     "orchestration",
