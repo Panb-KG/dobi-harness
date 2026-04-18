@@ -2,7 +2,7 @@
   "name": "dobi-harness",
   "version": "1.0.0",
   "description": "多 Agent 编排系统，提供任务分解、并行执行、生产工作流和自进化能力",
-  "author": "Dobi",
+  "author": "Panb-KG",
   "license": "MIT-0",
   "repository": {
     "type": "git",
