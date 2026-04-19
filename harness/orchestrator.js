@@ -13,6 +13,7 @@
 
 import { EventEmitter } from 'events';
 import { createHash } from 'crypto';
+import { WikiIntegration } from './wiki-integration.js';
 
 // ============================================================================
 // 配置
@@ -352,6 +353,9 @@ export class HarnessOrchestrator extends EventEmitter {
     this.aggregator = new ResultAggregator();
     this.tasks = new Map();
     this.isRunning = false;
+    
+    // Wiki 集成
+    this.wiki = config.wikiEnabled ? new WikiIntegration(config.wiki) : null;
   }
 
   /**
@@ -398,6 +402,12 @@ export class HarnessOrchestrator extends EventEmitter {
 
       this.logger.info(`Execution completed: ${aggregated.completed}/${aggregated.total} successful`);
       this.emit('complete', finalResult);
+
+      // Wiki 集成：自动摄入任务结果
+      if (this.wiki && options.wiki?.autoIngest) {
+        this.logger.info('[Wiki] 开始摄入任务结果到 wiki');
+        await this.wiki.ingestTaskResult(task, finalResult, options.wiki);
+      }
 
       return finalResult;
 

@@ -90,6 +90,25 @@ console.log(`审查评分：${result.report.score * 100}`);
 - **Working Buffer** - 工作缓冲区
 - **Pattern Recognition** - 模式识别
 
+### 4. Wiki Memory System (NEW)
+
+基于 Karpathy llm-wiki 模式的记忆系统：
+
+- **Wiki Ingest** - 源文档摄入工具
+- **Wiki Query** - 知识查询工具
+- **Wiki Search** - 全文搜索工具
+- **Wiki Lint** - 健康检查工具
+- **Harness Integration** - 任务执行自动沉淀知识
+
+### 5. Group Collaboration (NEW)
+
+群协作记忆能力：
+
+- **Topic Tracking** - #话题 自动归档
+- **People Recognition** - 群成员识别
+- **Progress Reporting** - 定期汇报总结
+- **Task Follow-up** - 任务跟进
+
 ## 📁 文件结构
 
 ```
@@ -111,7 +130,14 @@ harness-engineering/
 │   └── cicd.js               # CI/CD 集成
 ├── memory/
 │   ├── wal.js                # WAL 协议
-│   └── working-buffer.js     # 工作缓冲区
+│   ├── working-buffer.js     # 工作缓冲区
+│   └── wiki/                 # Wiki 记忆系统
+│       ├── entities/         # 实体页
+│       ├── concepts/         # 概念页
+│       ├── sources/          # 源文档
+│       ├── queries/          # 查询结果
+│       ├── topics/           # 话题追踪（群协作）
+│       └── groups/           # 群组信息（群协作）
 ├── examples/
 │   └── harness-demo.js       # 完整演示
 └── tests/
@@ -245,6 +271,8 @@ node examples/harness-demo.js
 - [SELF-IMPROVEMENT.md](./SELF-IMPROVEMENT.md) - 自进化系统
 - [SECURITY-AUDIT.md](./SECURITY-AUDIT.md) - 安全审计报告
 - [README.md](./README.md) - 项目总览
+- **LLM-WIKI-DESIGN.md** - Wiki 记忆系统设计（Karpathy 模式）
+- **COLLABORATION-GUIDE.md** - 群协作指南（待创建）
 
 ## 🤝 贡献
 

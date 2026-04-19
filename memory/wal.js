@@ -94,7 +94,14 @@ class LogEntry {
    * 序列化为 JSON 行
    */
   toJSON() {
-    return JSON.stringify(this);
+    return JSON.stringify({
+      type: this.type,
+      transactionId: this.transactionId,
+      data: this.data,
+      sequence: this.sequence,
+      timestamp: this.timestamp,
+      checksum: this.checksum
+    });
   }
 
   /**

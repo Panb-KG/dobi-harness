@@ -1,0 +1,34 @@
+{
+  "name": "dobi-harness",
+  "version": "1.0.0",
+  "description": "多 Agent 编排系统 - 生产级工作流 - 自进化能力",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test-suite.js",
+    "demo": "node examples/harness-demo.js",
+    "wiki:ingest": "node tools/wiki-ingest.js",
+    "wiki:query": "node tools/wiki-query.js",
+    "wiki:search": "node tools/wiki-search.js",
+    "wiki:lint": "node tools/wiki-lint.js"
+  },
+  "bin": {
+    "wiki-ingest": "./tools/wiki-ingest.js",
+    "wiki-query": "./tools/wiki-query.js",
+    "wiki-search": "./tools/wiki-search.js",
+    "wiki-lint": "./tools/wiki-lint.js"
+  },
+  "keywords": [
+    "agent",
+    "orchestration",
+    "workflow",
+    "wiki",
+    "memory",
+    "openclaw"
+  ],
+  "author": "多比 🧦",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Panb-KG/dobi-harness"
+  }
+}
